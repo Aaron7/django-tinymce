@@ -45,10 +45,10 @@ tinymce.PluginManager.add('codemirror', function(editor, url) {
 	});
 
 	// Add a menu item to the tools menu
-	editor.addMenuItem('code', {
-		icon: 'code',
-		text: 'Source code',
-		context: 'tools',
-		onclick: showSourceEditor
-	});
+	//editor.addMenuItem('code', {
+	//	icon: 'code',
+	//	text: 'Source code',
+	//	context: 'tools',
+	//	onclick: showSourceEditor
+	//});
 });
